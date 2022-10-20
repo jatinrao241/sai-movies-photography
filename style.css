@@ -1,0 +1,601 @@
+
+
+body{
+    background-attachment: fixed;
+    background-image: url(images/bg-img.jpg);    
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+.btn:hover{
+    color:white;
+    box-shadow:none;
+}
+
+/* navbar-home-section */
+
+.navbar-home-section .bg-image{
+    background-image:url(images/cover-bg.jpeg);  
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:260px;
+    width:100%;    
+    margin-bottom:-80px;
+}
+
+.sidepanel  {
+    width:0;
+    position:fixed;
+    z-index: 1;
+    height:100vh;
+    top: 0;
+    left:0;
+    background-color:rgb(24, 138, 173);
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 10px;
+}
+
+.sidepanel a {
+    padding: 13px 8px 13px 16px;
+    text-decoration: none;
+    font-size:16px;
+    line-height:35px;
+    color:white;  
+    display: block;
+    transition: 0.3s;
+    font-weight:500;
+}
+
+.sidepanel a:hover {
+    background-color:rgb(27, 61, 212);
+    color:white;
+    text-decoration: none;
+}
+
+.sidepanel a img{
+    height:30px;
+    margin-right:10px;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top:0px;
+    right:5px;
+    padding:10px 15px;
+    margin-top:10px;
+    margin-right:25px;
+    font-size:24px;
+    color:white;
+    background-color:rgb(42, 65, 165);
+}
+
+.slidepanel .closebtn:hover {
+    background-color:rgb(26, 54, 212);
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:rgb(24, 138, 173);
+    color: white;
+    padding: 10px 15px;
+    border:none;
+    left:0;
+    opacity:0.8;
+}
+.openbtn i{
+    color:white;
+}
+
+.openbtn:hover {
+    background-color:rgb(28, 13, 228);
+    outline:none;
+}
+
+.middle-logo{
+    text-align: center;
+}
+
+.middle-logo video{
+    position:relative;
+    z-index:0;
+}
+
+.middle-logo img{
+    position: relative;
+    height: 150px;
+    padding: 0px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    margin-top:0px;
+    z-index: 1;
+}
+
+.middle-logo h2{
+    color:rgb(24, 138, 173);
+    padding-top:10px;
+    font-weight:700;
+}
+
+.middle-logo h6{
+    font-size:20px;
+    color:whitesmoke;
+}
+
+.middle-logo h1{
+    font-size:32px;
+    color:white;
+}
+
+.middle-logo h1 span{
+    color:red;
+}
+
+
+/* profile section */
+.profile-section{
+    padding-top:30px;
+}
+
+.profile-section .profile-icon a{
+    color:white;
+    font-size:17px;    
+}
+
+.profile-section a:hover{
+    text-decoration:none;
+}
+
+.profile-section .profile-icon a i{
+    background-color:rgb(24, 138, 173);
+    color:whitesmoke;
+    border-radius:100%;
+    padding:18px;
+    font-size:26px;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+.profile-section .profile-star span{
+    color:gold;
+}
+
+.star-review{
+    color:rgb(175, 175, 180);
+    font-weight:500;
+    padding-top:8px;
+}
+
+/* contact section */
+.contact-section .contact-icon a i{
+    background-color:rgb(24, 138, 173);
+    color:whitesmoke;
+    border-radius:100%;
+    padding:13px;
+    font-size:17px;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+.list-inline-item i{
+    font-size:32px;
+}
+
+.contact-section .contact-button .button-color{
+    background-color: rgb(24, 138, 173);
+    color:whitesmoke;
+    font-weight:700;
+}
+
+.contact-section .contact-socialmedia-icon img{
+    height:70px;
+    border-radius:20px;
+}
+
+/* About section */
+
+.about-service-heading{
+    text-align: center;
+    color:whitesmoke;
+    padding-bottom:10px;
+    border-bottom:5px solid rgb(168, 168, 175);
+    margin:0px 250px;
+}
+
+.about-section h3+h6{
+    color:whitesmoke;
+    text-align: center;
+    padding:20px 32px 9px 32px;
+    font-size:16px;
+}
+
+.about-section .about-data a p{
+    color:#b7b7b7;
+    font-weight:500;
+    text-align: center;
+    padding:5px 10px 0px 10px;
+    font-size:15px;
+}
+.about-section .about-data p{
+    color:whitesmoke;
+    font-weight:500;
+    text-align:justify;
+    /* padding:0px 10px 0px 10px; */
+    margin:3px;
+    font-size:15px;
+}
+
+.about-section .about-data a{
+    color:black;
+    font-size:17px;    
+}
+
+.about-section a:hover{
+    text-decoration:none;
+}
+
+.about-section .about-button-color{
+    background-color:rgb(24, 138, 173);
+    color:whitesmoke;
+}
+
+.about-section .about-data a i{
+    background-color:rgb(24, 138, 173);
+    color:whitesmoke;
+    border-radius:100%;
+    padding:20px;
+    font-size:26px;
+    text-align: center;
+    margin-bottom:1px;
+}
+
+/* clientele section */
+.clientele-section p{
+    margin:10px 0px;
+}
+.clientele-section img{
+    width:100%;
+    margin:10px 0px;
+    border-radius:10px;
+}
+
+/* Service section */
+.service-section .nav{
+    flex-wrap:nowrap;
+    overflow-x: auto;    
+    flex-direction: row;
+}
+
+.tabs .nav-item{
+    padding:2px;
+}
+.tabs .nav-item .nav-link{
+    background-color:#fff;
+    color:black;
+    font-size:14px;
+    font-weight:500;
+    border:none;
+    border-radius:5px;  
+    /* height:55px; */
+    padding: 6px 38px;
+}
+.tabs .nav-item .active{
+    color:#fff;
+    background-color:rgb(24, 138, 173);
+    border:none;
+}
+
+.service-section .card-body h4{
+    font-size:13px;
+    transform:scaley(1.8);
+}
+
+.service-section .tab-content .card-body img{
+    /* height:200px; */
+    border-radius:8px;
+    margin-bottom:20px;
+}
+
+
+.service-section .card-body a{
+    /* padding:3px 5px; */
+    width:100%;
+    font-size:15px;
+}
+
+/* portfolio section */
+.portfolio-section img{
+    width:100%;
+    /* height:180px; */
+    transition:0.3s all ease-in;
+    border-radius:10px;
+    border:5px solid whitesmoke;
+    box-shadow:0px 0px 3px 1px whitesmoke;
+}
+.portfolio-section a img:hover{
+    transform:scale(0.8);
+}
+
+/* recent work section */
+.recent-work-section img{
+    width:100%;
+    border-radius:5px;
+}
+
+/* team section */
+.team-section .card-body h4{
+    color:black;
+    font-size:22.8px;
+    padding-top:20px;
+}
+
+.team-section .card-body p{
+    color:gray;
+}
+
+/* feedback section */
+.feedback-section .carousel-item{
+    text-align: center;
+    font-size:24px;
+    color:white;
+}
+
+.feedback-section .pro-bar .d-flex{
+    justify-content:center;
+}
+
+.feedback-section .feed-star{
+    color:gold;
+    text-decoration: none;
+}
+
+.feedback-section .pro-bar strong{
+    color:white;
+}
+
+
+/* ---- feedback-section -> star-rating-wrapper ---- */
+.feedback-section .star-rating-wrapper{
+    direction:rtl;
+}
+
+.feedback-section .star-rating-wrapper input{
+    display:none;
+}
+
+.feedback-section .star-rating-wrapper label{
+    width:35px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom:4.5rem;
+}
+
+.feedback-section .star-rating-wrapper label::before{
+    content:"\2605";
+    position:absolute;
+    font-size:50px;
+    top:0;
+    left:0;
+    color:gray;
+}
+
+.feedback-section .star-rating-wrapper label::after{
+    content:"\2605";
+    position:absolute;
+    font-size:50px;
+    top:0;
+    left:0;
+    color:gold;
+    opacity:0;
+}
+
+.feedback-section .star-rating-wrapper label:hover::after,
+.feedback-section .star-rating-wrapper label:hover ~ label::after,
+.feedback-section .star-rating-wrapper input:checked ~ label::after{
+    opacity:1;
+}
+
+.feedback-section .QR-Code img{
+    height:130px;
+    width:auto;
+    border:3px solid rgb(154, 158, 154);
+}
+
+.feedback-section .QR-Code a{
+    background-color:rgb(231, 229, 229);
+    color:green;
+    border:none;
+    padding:5px 10px;
+    border:2px solid rgb(168, 167, 167);
+    border-radius:5px;
+}
+
+.feedback-section .QR-Code a:hover{
+    text-decoration:none;
+}
+
+.feedback-section .dizibharat .created-by{
+    padding-right:5px;
+    color:white;
+    font-size:18px;
+    font-style: italic;
+    font-weight:700;
+}
+
+.feedback-section .dizibharat a:hover{
+    text-decoration: none;
+}
+
+a i:hover{
+    animation:rotate 0.4s;
+}
+
+@keyframes rotate {
+    0%{
+        transform:rotate(75deg);
+    }
+    25%{
+        transform:rotate(150deg);
+    }
+    50%{
+        transform:rotate(225deg);
+    }
+    75%{
+        transform:rotate(300deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+/* section bottom to top */
+.section-bottom-top a{
+    position:fixed;
+    height:45px;
+    bottom:35px;
+    right:50px;
+    background-color:gray;
+    opacity:0.8;
+    color:green;
+    font-size:20px;
+    padding:11px;
+    border-radius:10px;
+}
+.section-bottom-top a:hover{
+    background-color:rgb(226, 226, 226);
+    color:green;
+}
+.section-bottom-top a i:hover{
+    animation:rotate 0.4s;
+}
+.section-bottom-top a i{    
+    animation: top-bottom 0.8s infinite;
+}
+
+@keyframes top-bottom {
+    0%{
+        padding-top:0px;
+    }
+    100%{
+        padding-top:5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) { 
+    /* about section */   
+    .about-service-heading{
+        margin:0px 200px;
+    }
+    /* service section */
+    .tabs .nav-item .nav-link{
+        /*height:55px;    */
+        width:max-content;
+    }
+    /* .service-section .tab-content .card-body img{
+        height:170px;
+    } */
+}
+@media (max-width:991px) {
+    /* about section */
+    .about-service-heading{
+        margin:0px 100px;
+    } 
+    /* service section */
+    /* .tabs .nav-item .nav-link{
+        height:70px;    
+    }    */
+}
+
+@media (max-width:768px) {    
+    body{
+        background-attachment: fixed;
+        background-image: url(images/bg-img.jpg);    
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+    }
+    /* about section */
+    .about-service-heading{
+        margin:0px 50px;
+    }
+
+    /* section bottom to top */
+    .section-bottom-top a{
+        bottom:10px;
+        right:10px;
+    }
+    /* feedback section */
+    .feedback-section .carousel-item{
+        text-align: center;
+        font-size:16px;
+        color:white;
+    }
+
+}
+
+@media (max-width:591px) { 
+    /* profile section */
+    .profile-section .profile-icon a i{
+        color:white;
+        border-radius:100%;
+        padding:13px;
+        font-size:22px;
+        text-align: center;
+        margin-bottom:7px;
+    }  
+    /* contact section  */
+    .contact-icon p{
+        font-size:16px;
+    }
+    .contact-section .contact-button .button-color{
+        font-size:15px;
+    }
+    .contact-section .contact-socialmedia-icon img{
+        height:50px;
+        border-radius:20px;
+    }
+    /* about section */
+    .about-section .about-data p{
+        font-size:14px;
+    }
+
+    /* service section */
+    .service-section .tab-content .card-body img{
+        height:auto;
+    }
+    /* portfolio section */
+    .portfolio-section img{
+        height:auto;
+    }
+}
+
+@media (max-width:405px) {
+    /* contact section  */
+    .contact-icon p{
+        font-size:17px;
+    }
+}
+
+@media (max-width:391px) {    
+    /* about section */
+    .about-service-heading{
+        margin:0px 0px;
+    }
+}

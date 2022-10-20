@@ -1,0 +1,36 @@
+{
+  "name": "Sai Movies Photography",
+  "short_name": "Sai Movies Photography",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#5900b3",
+  "theme_color": "#ffffff",
+  "scope": ".",
+  "description": "Sai Movies Photography",
+  "icons": [
+    {
+      "src": "images/sai-movies-logo192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/sai-movies-logo512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/sai-movies-logo180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/sai-movies-logo144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
